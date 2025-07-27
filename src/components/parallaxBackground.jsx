@@ -15,7 +15,7 @@ const ParallaxBackground = () => {
                 <div
                     className="absolute inset-0 w-full h-screen -z-50"
                     style={{
-                        backgroundImage: "url(/assets/sky.jpg)",
+                        backgroundImage: "url(/assets/who.png)",
                         backgroundPosition: "bottom",
                         backgroundSize: "cover",
                     }}
