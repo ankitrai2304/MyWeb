@@ -1,0 +1,12 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aries zodiac symbol">
+  <g fill="none" stroke="#111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Aries horns -->
+    <path d="M80 28
+             C 48 28, 36 52, 36 70
+             C 36 90, 52 98, 64 98
+             M80 28
+             C112 28,124 52,124 70
+             C124 90,108 98,96 98
+             M80 28 L80 132"/>
+  </g>
+</svg>
