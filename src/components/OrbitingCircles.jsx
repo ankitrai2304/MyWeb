@@ -22,7 +22,7 @@ export function OrbitingCircles({
                     className="absolute inset-0 pointer-events-none size-full"
                 >
                     <circle
-                        className="stroke-1 stroke-white/10"
+                        className="stroke-1 stroke-white/5"
                         cx="50%"
                         cy="50%"
                         r={radius}
@@ -41,7 +41,7 @@ export function OrbitingCircles({
                             "--icon-size": `${iconSize}px`,
                         }}
                         className={twMerge(
-                            `absolute flex size-[var(--icon-size)] transform-gpu animate-orbit items-center justify-center rounded-full ${reverse ? "[animation-direction:reverse]" : ""
+                            `absolute flex size-[var(--icon-size)] transform-gpu animate-orbit items-center justify-center rounded-full transition-all duration-300 hover:scale-125 hover:z-10 ${reverse ? "[animation-direction:reverse]" : ""
                             }`,
                             className
                         )}

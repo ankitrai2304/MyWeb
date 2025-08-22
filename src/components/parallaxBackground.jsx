@@ -20,7 +20,7 @@ const ParallaxBackground = () => {
                         backgroundSize: "cover",
                     }}
                 />
-                {/* Mountain Layer 3 */}
+                {/* Mountain Layer 3
                 <motion.div
                     className="absolute inset-0 -z-40"
                     style={{
@@ -31,7 +31,7 @@ const ParallaxBackground = () => {
                     }}
                 />
                 {/* Planets */}
-                <motion.div
+                {/* <motion.div
                     className="absolute inset-0 -z-30"
                     style={{
                         backgroundImage: "url(/assets/planets.png)",
@@ -39,9 +39,9 @@ const ParallaxBackground = () => {
                         backgroundSize: "cover",
                         x: planetsX,
                     }}
-                />
+                /> */}
                 {/* Mountain Layer 2 */}
-                <motion.div
+                {/* <motion.div
                     className="absolute inset-0 -z-20"
                     style={{
                         backgroundImage: "url(/assets/mountain-2.png)",
@@ -49,9 +49,9 @@ const ParallaxBackground = () => {
                         backgroundSize: "cover",
                         y: mountain2Y,
                     }}
-                />
+                /> */}
                 {/* Mountaine Layer 1 */}
-                <motion.div
+                {/* <motion.div
                     className="absolute inset-0 -z-10"
                     style={{
                         backgroundImage: "url(/assets/mountain-1.png)",
@@ -59,7 +59,7 @@ const ParallaxBackground = () => {
                         backgroundSize: "cover",
                         y: mountain1Y,
                     }}
-                />
+                />  */}
             </div>
         </section>
     );
