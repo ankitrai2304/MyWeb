@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base:"/MyWeb",
   build: {
     chunkSizeWarningLimit: 1000, // Optional: Increase warning threshold
     rollupOptions: {
